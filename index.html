@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>播放器</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+  <section id="container">
+    <section class="bg"></section>
+    <section id="info">
+      <section class="left_info">
+        <header id="song_image">
+          <img src="default.jpg" alt="图片加载失败">
+        </header>
+        <section>
+          <span id="curr_music"></span>
+          <span id="musician"></span>
+        </section>
+
+      </section>
+
+      <section class="right_list">
+        <!-- <header class="list_name">
+          <img id="title" src="" alt="unnamed list">
+        </header> -->
+        <h2 id="list_name"></h2>
+        <ol id="song_list">
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+          <li>
+            <span class="music_name fl"></span>
+            <span class="artist_name fr"></span>
+          </li>
+        </ol>
+      </section>
+    </section>
+
+    <footer>
+      <audio controls  id="audio">
+        <source id="music_url" src="">
+      </audio>
+      <!-- <button>上一首</button> -->
+      <!-- <button id="play">播放</button> -->
+      <!-- <button type="">下一首</button> -->
+    </footer>
+  </section>
+  <ul id="group_music">
+    <li><a href="#" title="1">新歌榜</a></li>
+    <li><a href="#" title="2">热歌榜</a></li>
+    <li><a href="#" title="16">流行榜</a></li>
+    <li><a href="#" title="21">欧美金曲榜</a></li>
+    <li><a href="#" title="22">经典老歌榜</a></li>
+    <li><a href="#" title="23">情歌对唱榜</a></li>
+  </ul>
+</body>
+<script type="text/javascript" src="scripts/thisisplayer.js"></script>
+</html>
